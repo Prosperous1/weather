@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+<header class="up-header">
+    <h1>Weather</h1>
+</header>
+<section class="blog-weather">
+    <div class="content">
+        <section class="display">
+            <div class="wrapper">
+                <h2 id="cityoutput"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+        </section>
+        <button
+                onclick="showInputBox()" class="change-city-btn" id="changeCityBtn"
+        >
+            Change city
+        </button>
+    </div>
+    <div class="city-cont" id="findCityBox">
+        <section class="main">
+            <section class="inputs">
+                <label for="findCityBox">
+                    Type in city...
+                    <input class="city-box" type="text" name="city-box" id="city-box" />
+                    <button class="btn-search" type="submit" id="btn-search" value="Submit">Search</button>
+                </label>
+
+            </section>
+        </section>
+    </div>
+</section>
+<script src="getWeather.js"></script>
+</body>
+</html>
