@@ -18,8 +18,6 @@ let description = document.querySelector('#description')
 let temp = document.querySelector('#temp')
 let wind = document.querySelector('#wind')
 apik = "cb6c5ef71de718644e0fbe91a6c90a7c"
-
-
 /**
  *
  * We convert the temperature scale from Kelvin to Celsius.
@@ -52,7 +50,7 @@ btn.addEventListener('click', function()
              * @type {Element}
              */
             city.innerHTML=`Weather of <span>${nameval}<span>`
-            temp.innerHTML = `Temperature: <span>${ convertion(tempature)} C</span>`
+            temp.innerHTML = `<span>${ convertion(tempature)} ℃</span>`
             description.innerHTML = `Sky Conditions: <span>${descrip}<span>`
             wind.innerHTML = `Wind Speed: <span>${wndspd} km/h<span>`
 

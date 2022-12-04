@@ -1,3 +1,6 @@
+html{
+    font-family: Inter, serif;
+}
 body {
     height: 1024px;
     text-align: center;
@@ -67,12 +70,14 @@ label {
 .wrapper {
     font-weight: 700;
     font-size: 27px;
-    margin: 0;
 }
 .wrapper h2{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 48px;
     color: white;
+}
+.text-temp{
+    font-size: 72px;
 }
 .current-city {
     font-weight: 400;
