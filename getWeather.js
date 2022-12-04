@@ -1,7 +1,3 @@
-let currentTemperature = document.getElementById("currentTemperature");
-let currentCity = document.getElementById("currentCity");
-let icon = document.getElementById("weatherIcon");
-
 let changeCityBtn = document.getElementById("changeCityBtn");
 let findCityBox = document.getElementById("findCityBox");
 
